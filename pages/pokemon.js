@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Link from 'next/Link';
+import Link from 'next/link';
 import axios from 'axios';
 
 const pokemon = ({ pokeman, id }) => {
