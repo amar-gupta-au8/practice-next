@@ -9,7 +9,7 @@ const Home = ({ results }) => {
     return pokeman.name.indexOf(search) !== -1;
   });
   return (
-    <Layout title='nextjs'>
+    <Layout title='Pokemon app'>
       <h1 className='text-4xl mb-8 text-center'>nextjs</h1>
       <div className='p-8'>
         <div className='bg-white flex items-center rounded-full shadow-xl'>
